@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    
     <!-- swiper css -->
     <link
   rel="stylesheet"
@@ -13,12 +13,13 @@
     
 <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 <!-- styles -->
-<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="style.css" />
+<title>Home</title>
 </head>
 <body>
     <!-- header -->
     <section class="header">
-        <a href="home.php" class="logo">travel.</a>
+        <a href="home.php" class="carLogo">cars.</a>
         <nav class="navbar">
             <a href="home.php">home</a>
             <a href="about.php">about</a>
@@ -26,6 +27,8 @@
             <a href="book.php">book</a>
 </nav>
 
+<!-- menu bar -->
+<div id="menu-btn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
 
