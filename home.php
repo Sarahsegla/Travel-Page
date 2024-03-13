@@ -35,10 +35,32 @@
 <section class="footer">
     <div class="box-container">
         <div class="box">
-        <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="package.php">package</a>
-            <a href="book.php">book</a>
+            <h3>Links</h3>
+        <a href="home.php"> <i class="fa fa-caret-right" ></i> home </a>
+            <a href="about.php"> <i class="fa fa-caret-right"></i> about </a>
+            <a href="package.php"> <i class="fa fa-caret-right"></i> package </a>
+            <a href="book.php"> <i class="fa fa-caret-right" ></i> book </a>
+</div>
+
+<div class="box">
+            <h3>More Links</h3>
+            <a href="#"> <i class="fa fa-caret-right" ></i> questions </a>
+            <a href="#"> <i class="fa fa-caret-right" ></i> about </a>
+            <a href="#"> <i class="fa fa-caret-right" ></i> privacy policy </a>
+            <a href="#"> <i class="fa fa-caret-right" ></i> terms of use </a>
+</div>
+
+<div class="box">
+            <h3>Contact Me</h3>
+            <a href="#"> <i class="fa fa-phone"></i>+44 07123456546 </a>
+            <a href="#"> <i class="fa fa-phone"></i>+44 07123456546 </a>
+            <a href="#"> <i class="fa fa-envelope" ></i> Somebody@gmail.com </a>
+            <a href="#"> <i class="fa fa-map" ></i> London, United Kingdom </a>
+</div>
+
+<div class="box">
+            <h3>Socials</h3>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
 </div>
 </div>
 </section>

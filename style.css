@@ -104,11 +104,13 @@ html::-webkit-scrollbar-thumb {
 
 
 
+.footer{
+    
+}
 
 
 
-
-
+/* media sizes */
 
 @media(max-width:1200px){
     section{
