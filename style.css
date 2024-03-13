@@ -138,6 +138,7 @@ html::-webkit-scrollbar-thumb {
         background-color: var(--white);
         border-top: var(--border);
         padding: 2rem;
+        transition: .3s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
     .header .navbar.active{ 
