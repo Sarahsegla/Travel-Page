@@ -33,7 +33,7 @@
     <!-- header end-->
 
 <section class="footer">
-    <div class="box-container">
+    <div class="boxContainer">
         <div class="box">
             <h3>Links</h3>
         <a href="home.php"> <i class="fa fa-caret-right" ></i> home </a>
@@ -63,6 +63,9 @@
             <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
 </div>
 </div>
+
+
+
 </section>
 
 <!-- swiper -->
