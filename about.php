@@ -31,7 +31,9 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
-
+    <div class="heading" style="background:url(images/about.jpeg) no-repeat">
+        <h2>about us</h2>
+</div>
 <section class="footer">
     <div class="boxContainer">
         <div class="box">

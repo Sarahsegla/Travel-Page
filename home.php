@@ -14,7 +14,7 @@
 <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 <!-- styles -->
 <link rel="stylesheet" href="style.css" />
-<title>Home</title>
+<title>about</title>
 </head>
 <body>
     <!-- header -->
@@ -31,6 +31,28 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
+    <!-- what I offer -->
+    <section class="service">
+        <h1 class="headtitle">My Services</h1>
+        <div class="boxContainer">
+        <div class="box">
+            <img src="images/photo1.png" alt="car">
+            <h3>photography</h3>
+</div>
+<div class="box">
+            <img src="images/print.png" alt="car">
+            <h3>print</h3>
+</div>
+<div class="box">
+            <img src="images/movie.png" alt="car">
+            <h3>video</h3>
+</div>
+<div class="box">
+            <img src="images/tune.png" alt="car">
+            <h3>filter</h3>
+</div>
+        </div>
+</section>
 
 <section class="footer">
     <div class="boxContainer">
