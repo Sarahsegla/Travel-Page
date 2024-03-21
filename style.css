@@ -78,7 +78,9 @@ html::-webkit-scrollbar-thumb {
     color: var(--black);
     display: none;
 }
-
+.boxCcontainer{
+    display: none;
+}
 
 
 

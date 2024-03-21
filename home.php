@@ -31,12 +31,52 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
+
+
+<!-- home -->
+<section class="homePage">
+    <div clss="homeSlides">
+        <div class="w">
+            <div class="slide" style="background:url(images/back1.jpeg) no-repeat">
+            <div class="content">
+                <span> cars, luxury, speed</span>
+                <h3>car photography<h3>
+                    <a href="package.php" class="btn">Get your own!</a>
+</div>
+</div>
+<div class="slide" style="background:url(images/back2.jpeg) no-repeat">
+            <div class="content">
+                <span> cars, luxury, speed</span>
+                <h3>car photography<h3>
+                    <a href="package.php" class="btn">Get your own!</a>
+</div>
+</div>
+<div class="slide" style="background:url(images/back3.jpeg) no-repeat">
+            <div class="content">
+                <span> cars, luxury, speed</span>
+                <h3>car photography<h3>
+                    <a href="package.php" class="btn">Get your own!</a>
+</div>
+</div>
+<div class="slide" style="background:url(images/back4.jpeg) no-repeat">
+            <div class="content">
+                <span> cars, luxury, speed</span>
+                <h3>car photography<h3>
+                    <a href="package.php" class="btn">Get your own!</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
     <!-- what I offer -->
     <section class="service">
         <h1 class="headtitle">My Services</h1>
-        <div class="boxContainer">
+        <div class="boxCcontainer">
+        
         <div class="box">
-            <img src="images/photo1.png" alt="car">
+            <img  src="images/photo1.png" alt="car">
             <h3>photography</h3>
 </div>
 <div class="box">
@@ -52,6 +92,10 @@
             <h3>filter</h3>
 </div>
         </div>
+
+
+
+
 </section>
 
 <section class="footer">

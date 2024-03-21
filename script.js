@@ -11,4 +11,11 @@ menu.onclick = () =>{
 menu.classList.toggle('fa-times');
 // select active from css to connect to navbar
 navbar.classList.toggle('active');
+};
+// whenever i scroll
+window.onscroll = () =>{
+    // menu to toggle to fa timws meaning x icon
+menu.classList.remove('fa-times');
+// select active from css to connect to navbar
+navbar.classList.remove('active');
 }
