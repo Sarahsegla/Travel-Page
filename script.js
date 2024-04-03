@@ -18,4 +18,14 @@ window.onscroll = () =>{
 menu.classList.remove('fa-times');
 // select active from css to connect to navbar
 navbar.classList.remove('active');
-}
+};
+
+//swiper
+let swiper = new Swiper(".homeSlides", {
+    
+    loop:true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

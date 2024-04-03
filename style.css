@@ -16,7 +16,11 @@
 section {
     padding: 6rem 11%;
 }
-
+@keyframes fadeIn{
+0%{
+    transform:scale(0);
+    opacity: 0;
+}}
 *{
     font-family: "IBM Plex Mono", monospace;
     box-sizing: border-box;
@@ -78,16 +82,159 @@ html::-webkit-scrollbar-thumb {
     color: var(--black);
     display: none;
 }
+.btn {
+    display: inline-block;
+    background-color: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+.btn:hover {
+   
+    background-color: var(--main-color);
+    
+}
 .boxCcontainer{
     display: none;
 }
 
+ .homePage{
+    padding:0;
+}
+
+.homePage .slide{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 59rem;
+}
+.homePage .slide .content{
+    width: 84rem;
+
+}
+.homePage .swiper-active .content{
+    display: inline-block;
+}
+.homePage .slide .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    animation: fadeIn .4s linear backwards .2s;
+}
+.homePage .slide .content span{
+    display: block;
+    font-size: 3.5rem;
+    color: var(--light-white);
+    padding-bottom: 2rem;
+    animation: fadeIn .4s linear backwards .2s;
+}
+.homePage .slide .content h3{
+animation: fadeIn .4s linear backwards .7s;
+}
+
+.homePage .swiper-button-next,
+.swiper-button-prev{
+    color: var(--main-color);
+}
+.service .boxCcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap:1.6rem;
+}
 
 
+.service .boxCcontainer .box{ 
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--main-color);
+    cursor: pointer;
 
+}
+ .boxCcontainer .box{
+    background: var(--black);
+}
+.service .boxCcontainer .box:hover{ 
+background-color: #1f0204;
+}
+.homeAbout{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.homeAbout .image{
+    flex:1 1 41rem;
+}
+.homeAbout .image img{
+ width: 100%;
+}
 
+.homeAbout .homeContent{
+    flex:1 1 41rem;
+    padding: 3rem;
+    
+}
+.homeAbout .homeContent h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+.homeAbout .homeContent p{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+.homePackage{
+    /* background: var(--light-black); */
+}
+.homePackage .boxContainer .BOX{
+    border: var(--border) ;
+    box-shadow: var(--box-shadow);
+    background: var(--white);
+}
+.homePackage .boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
 
+.homePackage .boxContainer .image{
+    height: 25rem;
+    overflow: hidden;
+}
+.homePackage .boxContainer .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2 linear;
+}
 
+.homePackage .boxContainer .BOX .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.homePackage .boxContainer .BOX .content h3{
+    font-size: 2.6rem;
+    color: var(--black);
+}
+.homePackage .boxContainer .BOX .content p{
+    font-size: 2.6rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.homePackage .loadMore{
+    text-align: center;
+    margin-top: 2rem;
+}
 
 
 
