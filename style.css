@@ -11,6 +11,8 @@
     --border: .1re, solid var(var(--black));
     --box-shadow: 0 .3rem 0.5rem rgb(134, 131, 131);
     --text-shadow:0 1.6rem 3rem rgb(10, 10, 13);
+    --light-bg: rgb(223, 221, 221);
+    
 
 }
 section {
@@ -50,6 +52,23 @@ html::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
 
 }
+.heading{
+    background-size: cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+}
+
+
 .header{
     position: sticky;
     top: 0; right:0; left:0;
@@ -235,12 +254,66 @@ background-color: #1f0204;
     text-align: center;
     margin-top: 2rem;
 }
+/* about page */
+.about .image{
+    flex:1 1 41rem;
+}
+.about .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2 linear;
+}
+.about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+}
+.about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+.about .content p{
+    font-size: 1.6rem;
+    color: var(--light-blackblack);
+    line-height: 2;
+    padding:1rem 0 ;
+}
 
+.wiper{
+    padding-bottom: 20rem;
+}
+.wiper .swiper-wrapper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+   
+  }
+  .wiper .swiper-wrapper .swiper-slide img {
+display: block;
+      width: 100%; 
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
 
-
-
-
-
+.reviews{
+    background: var(--light-bg);
+}
+.reviews .slide{
+    padding: 2rem;
+    border: var(--border);
+    background: var(--white);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.reviews .slide .stars img{
+    height: 30%;
+    width: 30%;
+}
 
 
 

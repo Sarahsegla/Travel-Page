@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta http-equiv="Cache-control" content="no-cache">
     <!-- swiper css -->
     <link
   rel="stylesheet"
@@ -136,7 +136,7 @@
 <div class="BOX">
         <div class="image">
             <!-- add image here -->
-            <img src="images/packbout.jpg" 
+            <img src="images/gall2.jpeg" 
  alt="car" >
 </div>
 <div class="content">
@@ -155,7 +155,7 @@
 <div class="content">
     <h3> luxury cars </h3>
     <p> text paragraphhhhhhh</p>
-    <a href="book.php" alt="book image" class="btn">Book it!</a>
+    <a href="book.php" alt="" class="btn">Book it!</a>
 </div>
 </div>
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
     
     <!-- swiper css -->
     <link
@@ -31,9 +32,115 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
-    <div class="heading" style="background:url(images/about.jpeg) no-repeat">
-        <h2>about us</h2>
+    <div class="heading" style="background:url(images/about.png) no-repeat">
+        <h1>about us</h1>
 </div>
+<!-- about starts -->
+<section class="about">
+    <div class="image">
+    <img src="images/gall3.jpeg" 
+ alt="car" >
+    
+    </div>
+    <div class="content">
+        <h3>Why choose us?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Quasi doloribus tempora itaque voluptas voluptate,
+              officia debitis minima dolor tenetur placeat cum, libero reiciendis, praesentium quos. Eos rem quis iste ea.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             .</p>
+             
+</div>
+    </div>
+</section>
+
+ <!-- Swiper -->
+ <!-- <section class="gallery">
+    <h3>Gallery</h3>
+ <div class="wiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <img src="images/gall7.jpeg" 
+ alt="car" >
+      </div>
+      <div class="swiper-slide">
+      <img src="images/gall4.jpeg" 
+ alt="car" >
+      </div>
+      <div class="swiper-slide">
+      <img src="images/gall5.jpeg" 
+ alt="car" >
+      </div>
+      <div class="swiper-slide">
+      <img src="images/gall6.jpeg" 
+ alt="car" >
+      </div>
+      <div class="swiper-slide">
+      <img src="images/gall8.jpeg" 
+ alt="car" >
+      </div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </section> -->
+
+  <!-- review -->
+  <section class="reviews">
+    <div class="reviewSlider">
+        <div class="w">
+            <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet accusantium perferendis nam libero, adipisci alias!</p>
+                <h3>Momo </h3>
+                <span>client</span>
+                <img src="images/momo.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet accusantium perferendis nam libero, adipisci alias!</p>
+                <h3>Kara </h3>
+                <span>client</span>
+                <img src="images/momo5.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet accusantium perferendis nam libero, adipisci alias!</p>
+                <h3>john </h3>
+                <span>client</span>
+                <img src="images/momo6.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
 <section class="footer">
     <div class="boxContainer">
         <div class="box">
@@ -72,6 +179,7 @@
 
 <!-- swiper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script src="script.js" >
     </script>
 </body>
