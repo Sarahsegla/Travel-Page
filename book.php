@@ -55,10 +55,6 @@
 <input type="number" placeholder="enter your phone number" name="phone" >
 </div>
 <div class="inputbox">
-<span>address :</span>
-<input type="text" placeholder="enter your address" name="address" >
-</div>
-<div class="inputbox">
 <span>which package :</span>
 <input type="text" placeholder="enter your package" name="package" >
 </div>
