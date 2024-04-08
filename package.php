@@ -23,6 +23,7 @@
         <nav class="navbar">
             <a href="home.php">home</a>
             <a href="about.php">about</a>
+            <a href="gallery.php">gallery</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
 </nav>
@@ -31,9 +32,106 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
-    <div class="heading" style="background:url(images/package.jpeg) no-repeat">
-        <h2>package</h2>
+    <div class="heading" style="background:url(images/package.png) no-repeat">
+        <h1>package</h1>
 </div>
+
+<section class="package">
+    <h1 class="heading-title">Price packages</h1>
+    <div class="boxContainer" >
+        <div class="box">
+            <div class="image">
+                <img src="images/gall8.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>1 Location – £20</h3>
+                <p> One hour at one location </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img7.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>3 Location – £50</h3>
+                <p> Three hour at three location </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img2.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>5 Location – £70</h3>
+                <p> Five hour at five location </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img3.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>Poster </h3>
+                <p> A4(210x297mm) – £25 </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/img5.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>Poster</h3>
+                <p>A2(420x594mm) – £70 </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img6.jpeg" alt="">
+
+            </div>
+            <div class="content" >
+                <h3>Poster</h3>
+                <p> A1(594x841mm) – £100 </p> 
+                <a href="book.php" alt="book image" class="btn">Book</a>
+
+            </div>
+
+        </div>
+
+       
+    </div>
+
+</section>
+
+
+
+
+
+
 <section class="footer">
     <div class="boxContainer">
         <div class="box">

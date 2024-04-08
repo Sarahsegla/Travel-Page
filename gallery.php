@@ -32,55 +32,9 @@
 <div id="menuBtn" class="fas fa-bars"></div>
 </section>
     <!-- header end-->
-    <div class="heading" style="background:url(images/book.png) no-repeat">
-        <h1>book</h1>
+    <div class="heading" style="background:url(images/gallery.png) no-repeat">
+        <h2>gallery</h2>
 </div>
-
-
-<section class="booking">
-<h1 class="headong-title">Book your shoot!</h1>
-<form action="book_form.php" method="post" class="book-form" >
-
-<div class="flex">
-<div class="inputbox">
-<span>name :</span>
-<input type="text" placeholder="enter your name" name="name" >
-</div>
-<div class="inputbox">
-<span>email :</span>
-<input type="email" placeholder="enter your email" name="email" >
-</div>
-<div class="inputbox">
-<span>phone :</span>
-<input type="number" placeholder="enter your phone number" name="phone" >
-</div>
-<div class="inputbox">
-<span>address :</span>
-<input type="text" placeholder="enter your address" name="address" >
-</div>
-<div class="inputbox">
-<span>which package :</span>
-<input type="text" placeholder="enter your package" name="package" >
-</div>
-<div class="inputbox">
-<span>date :</span>
-<input type="date" name="date" >
-</div>
-</div>
-<input type="submit" value="submit" class="btn" name="send">
-</form>
-</section>
-
-
-
-
-
-
-
-
-
-
-
 <section class="footer">
     <div class="boxContainer">
         <div class="box">

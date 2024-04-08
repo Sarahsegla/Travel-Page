@@ -20,7 +20,7 @@ menu.classList.remove('fa-times');
 navbar.classList.remove('active');
 };
 
-//swiper
+//swiper for home page
 let swiper = new Swiper(".homeSlides", {
     
     loop:true,
@@ -30,19 +30,24 @@ let swiper = new Swiper(".homeSlides", {
     },
 });
 
-let swiperGallery = new wiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
+//swiper
+let aboutswiper = new Swiper(".reviewSlider", {
+    
+    loop:true,
+    spaceBetween: 20,
+    autoHeight:true,
+    grabCursor:true,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
+    
+});

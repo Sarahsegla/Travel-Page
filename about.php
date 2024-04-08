@@ -24,6 +24,7 @@
         <nav class="navbar">
             <a href="home.php">home</a>
             <a href="about.php">about</a>
+            <a href="gallery.php">gallery</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
 </nav>
@@ -87,9 +88,9 @@
 
   <!-- review -->
   <section class="reviews">
-    <div class="reviewSlider">
-        <div class="w">
-            <div class="slide">
+    <div class="swiper reviewSlider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slider slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -106,7 +107,7 @@
 
         </div>
 
-        <div class="slide">
+        <div class="swiper-slider slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -123,7 +124,7 @@
 
         </div>
 
-        <div class="slide">
+        <div class=" swiper-slider slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>

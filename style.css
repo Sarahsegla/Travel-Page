@@ -67,7 +67,12 @@ html::-webkit-scrollbar-thumb {
     color: var(--white);
     text-shadow: var(--text-shadow);
 }
-
+.heading h2{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+}
 
 .header{
     position: sticky;
@@ -210,9 +215,7 @@ background-color: #1f0204;
     line-height: 2;
     color: var(--black);
 }
-.homePackage{
-    /* background: var(--light-black); */
-}
+
 .homePackage .boxContainer .BOX{
     border: var(--border) ;
     box-shadow: var(--box-shadow);
@@ -239,6 +242,9 @@ background-color: #1f0204;
     padding: 2rem;
     text-align: center;
 }
+.homePackage .boxContainer .box:hover  .image img{
+    transform: scale(1.1);
+    }
 
 .homePackage .boxContainer .BOX .content h3{
     font-size: 2.6rem;
@@ -309,11 +315,130 @@ display: block;
     background: var(--white);
     text-align: center;
     box-shadow: var(--box-shadow);
+    user-select: none ;
 }
 .reviews .slide .stars img{
-    height: 30%;
-    width: 30%;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
 }
+
+.reviews .slide .stars i{
+    font-size: 1.8rem;
+    color: var(--main-color);
+}
+.reviews .slide .stars{
+    padding-bottom: .5rem;
+}
+.reviews .slide h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.reviews .slide p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.reviews .slide span{
+    font-size: 1.5rem;
+    color:var(--main-color) ;
+    display: block;
+}
+
+/* packages */
+
+.package .boxContainer .box{
+    border: var(--border) ;
+    box-shadow: var(--box-shadow);
+    background: var(--white);
+    
+}
+.package .boxContainer .box:hover  .image img{
+transform: scale(1.1);
+}
+.package .boxContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.package .boxContainer .image{
+    height: 25rem;
+    overflow: hidden;
+}
+.package .boxContainer .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2 linear;
+}
+
+.package .boxContainer .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.package .boxContainer .box .content h3{
+    font-size: 2.6rem;
+    color: var(--black);
+}
+.package .boxContainer .box .content p{
+    font-size: 2.6rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.package .loadMore{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* book */
+.booking .book-form{
+    padding: 2rem;
+    background: var(--light-bg);
+}
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.booking .book-form .flex .inputbox{
+    flex:1 1 41rem;
+}
+.booking .book-form .flex .inputbox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-bg);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+.booking .book-form .flex .inputbox input:focus{
+    background: var(--black);
+    color: var(--white);
+
+}
+.booking .book-form .flex .inputbox input:focus::placeholder{
+    
+    color: var(--light-white);
+}
+.booking .book-form .flex .inputbox span{
+    font-size: 1.6rem;
+    color: var(--light-black);
+
+}
+.booking .book-form .btn{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
 
 
 
